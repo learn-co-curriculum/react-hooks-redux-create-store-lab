@@ -1,10 +1,7 @@
-export default function createStore(reducer){
-
+export default function createStore(reducer) {
+  // add your code here
 }
 
-// solution
-export default function createStore(reducer){
-}
-
-function render(){
+function render() {
+  const container = document.getElementById('container');
 }
