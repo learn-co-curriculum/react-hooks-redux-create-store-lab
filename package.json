@@ -2,10 +2,6 @@
   "name": "introduction-to-react-assessment",
   "version": "0.1.0",
   "description": "Build a small React application using all that you&#39;ve learned in the course",
-  "engines": {
-    "node": "6.x",
-    "npm": "3.x"
-  },
   "main": "index.js",
   "scripts": {
     "debug": "node-debug --hidden node_modules _mocha --watch",
