@@ -6,7 +6,8 @@
   "scripts": {
     "debug": "node-debug --hidden node_modules _mocha --watch",
     "debug-ide": "./bin/debug-ide",
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json",
+    "start": "open index.html"
   },
   "repository": {
     "type": "git",
@@ -24,19 +25,24 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/introduction-to-react-assessment#readme",
   "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.18.0",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "babel": "^6.23.0",
     "babel-register": "^6.18.0",
     "expect": "^1.20.2",
-    "jsdom": "^9.4.1",
     "mocha": "^5.2.0",
     "mocha-multi": "^1.0.1",
-    "sinon": "^1.17.6"
+    "sinon": "^1.17.6",
   },
   "dependencies": {
     "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "file-system": "^2.2.2",
     "jsdom": "^9.9.1",
+    "mocha-jsdom": "^2.0.0",
+    "path": "^0.12.7",
     "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react-dom": "^15.3.0",
   }
 }
