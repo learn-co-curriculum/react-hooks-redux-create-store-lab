@@ -20,20 +20,20 @@ one store).
 ## Instructions
 
 1. In `createStore.js`, write a function called `createStore` that takes in a
-reducer function as an argument. We've provided the reducer functions for you so
-you can get a sense of how they'll work.
+   reducer function as an argument. We've provided the reducer functions for you
+   so you can get a sense of how they'll work.
 2. The `createStore` function should return an object with two methods -
-`getState`, `dispatch`.
+   `getState`, `dispatch`.
 
-  * `getState` should return the current state.
-  * `dispatch` should take in an action, update the state using the reducer, and call the render function.
+    * `getState` should return the current state.
+    * `dispatch` should take in an action, update the state using the reducer, and call the render function.
 
->Note: Don't forget, your initial state for each store should be set by the
+> **Note**: Don't forget, your initial state for each store should be set by the
 _reducer_. You'll have to dispatch some sort of 'initialize' action to get your
 state set!
 
 ## Resources
 
-- [Redux Documentation](http://redux.js.org/docs/basics/Store.html)
+* [Redux Documentation](http://redux.js.org/docs/basics/Store.html)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/redux-create-store-lab'>Redux Create Store Lab</a> on Learn.co and start learning to code for free.</p>
