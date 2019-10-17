@@ -12,25 +12,32 @@
 Good news - you're opening a candy store! First, we just need to build an app to
 manage our inventory.
 
-For now, we'll want to create two different stores - one to keep track of all of
-the types of candy we sell, and one to keep track of the count of the sales that
-we've had (Later on, we'll learn how we can manage multiple pieces of state in
-one store).
+For now, we'll want to create a store to keep track of all of the types of candy
+we sell. Later on, we'll learn how we can manage multiple pieces of pieces of
+state and more than one reducer, but for this challenge, the state is going to
+be a basic array of strings. By the end of this lab, you should be able to open `index.html`, use your store's `dispatch` function to add a
+name of a type of candy, and see that name appear on the page.
 
 ## Instructions
 
-1. In `createStore.js`, write a function called `createStore` that takes in a
-   reducer function as an argument. We've provided the reducer functions for you
-   so you can get a sense of how they'll work.
+Write your code in `src/index.js`. We've provided the reducer functions for you, `candyReducer`, so you can get a sense of how they'll work, as
+well as a `render` function.
+
+1. Write a function called `createStore` that takes in a
+   reducer function as an argument.
 2. The `createStore` function should return an object with two methods -
    `getState`, `dispatch`.
 
     * `getState` should return the current state.
     * `dispatch` should take in an action, update the state using the reducer, and call the render function.
 
-> **Note**: Don't forget, your initial state for each store should be set by the
-_reducer_. You'll have to dispatch some sort of 'initialize' action to get your
-state set!
+Once you've written `createStore`, to everything working, you'll need two more things at the end of `index.js`:
+
+1. Notice that in the provided `render` function, a variable named `store` is
+   called. Define a variable named `store` and assign it to whatever is returned
+   by the `createStore` function you've written when it is passed
+   the `candyReducer` function.
+2. Initialize your state using a `dispatch` call to the reducer.
 
 ## Resources
 
