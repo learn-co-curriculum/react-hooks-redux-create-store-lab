@@ -1,6 +1,10 @@
-// write your createStore function here
+// Note: createStore and candyReducer must be exported for the tests to run
 
-function candyReducer(state = [], action) {
+export function createStore() {
+  // write your createStore code here
+}
+
+export function candyReducer(state = [], action) {
   switch (action.type) {
     case "candies/add":
       return [...state, action.candy];
