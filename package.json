@@ -1,12 +1,6 @@
 {
-  "name": "introduction-to-react-assessment",
+  "name": "react-hooks-redux-create-store-lab",
   "version": "0.1.0",
-  "description": "Build a small React application using all that you&#39;ve learned in the course",
-  "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/learn-co-curriculum/introduction-to-react-assessment.git"
-  },
   "keywords": [
     "javascript",
     "flatiron",
@@ -34,7 +28,10 @@
       "@ihollander/jest-learn-reporter",
       "default"
     ],
-    "rootDir": "src"
+    "rootDir": "src",
+    "setupFiles": [
+      "./__test__/jest.setup.js"
+    ]
   },
   "babel": {
     "presets": [
