@@ -1,7 +1,5 @@
 # (Candy) Store Lab
 
-![Simpsons-candy](https://media.giphy.com/media/xT5LMwcxObBBA31D8c/giphy.gif)
-
 ## Objectives
 
 1. Write a method to create a store.
