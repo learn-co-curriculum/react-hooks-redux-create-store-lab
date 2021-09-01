@@ -1,9 +1,9 @@
 # (Candy) Store Lab
 
-## Objectives
+## Learning Goals
 
-1. Write a method to create a store.
-2. Work with stores, reducers, and actions.
+- Write a method to create a store
+- Work with stores, reducers, and actions
 
 ## Overview
 
