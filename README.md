@@ -19,8 +19,9 @@ candy, and see that name appear on the page.
 
 ## Instructions
 
-Write your code in `src/index.js`. We've provided the `candyReducer` function for you, as
-well as a `render` function, so you can get a sense of how they'll work.
+Write your code in `src/index.js`. We've provided the `candyReducer` function
+for you, as well as a `render` function, so you can get a sense of how they'll
+work.
 
 1. Write a function called `createStore` that takes in a reducer function as an
    argument.
